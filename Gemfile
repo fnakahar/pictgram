@@ -78,3 +78,7 @@ gem 'bootstrap-sass'
 gem 'bcrypt'
 
 gem "carrierwave"
+
+gem "font-awesome-rails"
+
+gem 'font-awesome-sass'
