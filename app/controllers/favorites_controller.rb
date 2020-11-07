@@ -1,6 +1,6 @@
 class FavoritesController < ApplicationController
     def index
-        @favorite_topic = curret_user.favorite_topics
+        @favorite_topic = current_user.favorite_topics
     end
     
     def create
