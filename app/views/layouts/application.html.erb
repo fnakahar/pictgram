@@ -15,10 +15,12 @@
     <% end %>
     
     <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+      <p class=dev-warning-message>!! For Development !!</p>
       <div class="container">
         <%= link_to root_path do %>
           <span><%= image_tag "icons/logo.png", class: "navbar-brand" %></span>
         <% end %>
+        
         <ul class="nav navbar-nav navbar-right">
           <% if logged_in? %>
             <li>

@@ -84,6 +84,7 @@ h1, h2 {
   .navbar-brand {
     padding: 0px;
     margin-top: 15px;
+    float: left;
   }
   
   img {
@@ -160,4 +161,10 @@ h1, h2 {
 
 .comment-user-name {
   font-size: 11px;
+}
+
+.dev-warning-message {
+  color: #fff;
+  float: left;
+  margin-left: 20px;
 }
