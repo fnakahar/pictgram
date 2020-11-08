@@ -23,9 +23,10 @@
                       <p class="topic-text">
                           <%= topic.description %>
                       </p>
-                      <h2>コメント</h2>
+                      <h2 class="comment-header">コメント</h2>
                       <% topic.comments.each do |comment| %>
-                          <p></p><%= comment.description %></p>
+                          <%= comment.description %>
+                          <p class="comment-user-name">by <%= comment.user.name %></p>
                       <% end %>
                     </div>
                 </div>
