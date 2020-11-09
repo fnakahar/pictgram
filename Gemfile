@@ -89,4 +89,4 @@ gem "font-awesome-rails"
 
 gem 'font-awesome-sass'
 
-gem 'fog-aws'
+gem 'fog'
