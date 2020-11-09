@@ -54,6 +54,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'mysql2', '>= 0.4.4', '< 0.6.0'
+  gem 'dotenv-rails'
 end
 
 group :test do
@@ -88,4 +89,4 @@ gem "font-awesome-rails"
 
 gem 'font-awesome-sass'
 
-
+gem 'fog'
